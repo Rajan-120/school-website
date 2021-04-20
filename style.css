@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+
+marquee {
+    margin-bottom: 5px;
+    padding-top: 0;
+    background-color: darkcyan;
+    color: white;
+}
+
+#home {
+    background: linear-gradient(#ffff99, #66ffff)
+}
+
+.images {
+    width: 300px;
+    height: 300px;
+}
+
+#menu {
+    position: fixed;
+}
+
+.video_title {
+    font-size: 35px;
+}
+
+iframe {
+    width: 900px;
+    height: 450px;
+}
+
+#videoText {
+    font-size: 35px;
+}
+
+.line {
+    background-color: darkslategray;
+    height: 7px;
+    width: 115px;
+    margin-left: 640px;
+}
+
+#channel {
+    font-size: 23px;
+}
+
+#videos {
+    background: linear-gradient(to top right, #66ffff 0%, #006699 100%);
+}
+
+#font {
+    height: 35px;
+    font-size: 25px;
+}
+
+#menu {
+    background-color: darkslategray;
+    z-index: 2;
+}
+
+.locater {
+    color: white;
+}
+
+#welcome {
+    height: 100px;
+}
+
+#travel {
+    width: 230px;
+    height: 230px;
+}
+
+#map {
+    margin-bottom: 60px;
+}
+
+#item1 {
+    font-size: 20px;
+    width: 575px;
+    margin-left: 410px;
+}
+
+#item2 {
+    font-size: 20px;
+    width: 575px;
+    margin-left: 410px;
+}
+
+#email {
+    font-size: 20px;
+}
+
+#div {
+    margin-right: 150px;
+}
+
+.info {
+    margin-left: 700px;
+    margin-right: -100px;
+    font-size: 25px;
+}
+
+.about {
+    margin-left: 700px;
+    margin-right: -100px;
+    margin-top: -700px;
+    margin-bottom: 45px;
+}
+
+.cicada {
+    width: 650px;
+    margin-right: 450px;
+}
+
+#origami {
+    width: 450px;
+    margin-right: 700px;
+    margin-top: 200px;
+}
+
+#cicadaInfo {
+    margin-top: -300px;
+    margin-left: 500px;
+    font-size: 25px;
+}
+
+#cicada_sound {
+    margin-top: 375px;
+    margin-left: -250px;
+}
+
+.movie_head {
+    font-size: 28px;
+    padding: 6px 22px;
+    border-radius: 50px;
+    margin-top: 350px;
+    background-color: darkslategray;
+}
+
+.movie_head:hover {
+    cursor: pointer;
+}
+
+#clothBags {
+    width: 350px;
+}
+
+.flowers {
+    width: 350px;
+}
+
+.pics {
+    width: 350px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#bird1 {
+    margin-left: 700px;
+    margin-top: -340px;
+}
+
+#bird1_txt {
+    margin-left: 720px;
+    margin-top: -55px;
+}
+
+#bird2 {
+    margin-left: 700px;
+    margin-top: -340px;
+}
+
+#bird2_txt {
+    margin-left: 720px;
+    margin-top: -55px;
+}
+
+#bird3 {
+    margin-left: 700px;
+    margin-top: -340px;
+}
+
+#bird3_txt {
+    margin-left: 720px;
+    margin-top: -55px;
+}
+
+#plant1 {
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+#plant1_txt {
+    margin-left: 720px;
+    margin-top: -55px;
+}
+
+#plant2 {
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+#plant2_txt {
+    margin-left: 720px;
+    margin-top: -55px;
+}
+
+#plant3 {
+    margin-left: 700px;
+    margin-top: -375px;
+}
+
+#plant3_txt {
+    margin-left: 720px;
+    margin-top: -55px;
+}
+
+#plant4 {
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+#plant4_txt {
+    margin-left: 720px;
+    margin-top: -55px;
+}

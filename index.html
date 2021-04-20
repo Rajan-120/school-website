@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="home">
+        <nav class="navbar-inverse">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </nav>
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a class="locater" href="#home">HOME</a></li>
+                <li><a class="locater" href="#videos">VIDEOS</a></li>
+                <li><a class="locater" href="#findings">MY FINDINGS</a></li>
+                <li><a class="locater" href="#explore">I EXPLORED</a></li>
+                <li><a class="locater" href="#myLife">MY ECO-FRIENDLY LIFE</a></li>
+                <li><a class="locater" href="#location">LOCATION</a></li>
+                <li><a class="locater" href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="announcement">
+            <marquee onmouseout="this.start();" onmouseover="this.stop();">
+                <img id="welcome" src="Welcome.png">
+            </marquee>
+        </div>
+        <img class="images" class="img-responsive" src="20210403_095337.jpg">
+        <img class="images" class="img-responsive" src="20210403_095613.jpg">
+        <img class="images" class="img-responsive" src="20210403_100247.jpg">
+        <img class="images" class="img-responsive" src="20210405_232613.jpg">
+    </section>
+    <section id="videos">
+        <br>
+        <h1 id="videoText">Videos</h1>
+        <br>
+        <div class="line"></div>
+        <br>
+        <p class="video_title">1. Songs of Nature</p>
+        <iframe src="https://www.youtube.com/embed/9gl4LWqboSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <p class="video_title">1. Be Healthy With nature</p>
+        <iframe width="956" height="538" src="https://www.youtube.com/embed/fFow7hyy6kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <span>
+            <p id="channel">Click on the link to view my channel </p>
+        </span>
+        <span id="channel" class="glyphicon glyphicon-hand-down"></span>
+        <div></div>
+        <a href="https://www.youtube.com/channel/UCNoa-3r5ksFKz-PJ_0541Cg" target="_blank">
+            <h3>My Youtube Channel!</h3>
+        </a>
+        <br>
+    </section>
+    <div class="page-header" id="findings">
+        <br>
+        <h2 class="text-capitalize">My Findings</h2>
+        <div class="line"></div>
+    </div>
+    <h4>Click once on the images to show and doubleclick the images to hide the text</h4>
+    <br>
+    <br>
+    <h4>Spray makes a photograph look amazing!</h4>
+    <br>
+    <img src="20210403_095337.jpg" onclick="show1();" ondblclick="hide1();" class="images">
+    <div id="item1"></div>
+    <img src="20210403_095613.jpg" class="images">
+    <div id="item1"></div>
+    <img src="20210405_232613.jpg" onclick="show2();" ondblclick="hide2();" class="images">
+    <div id="item2"></div>
+    <br>
+    <br>
+    <section id="explore">
+        <br>
+        <h2>I Explored</h2>
+        <br>
+        <div class="line"></div>
+        <br>
+        <div class="container">
+            <br>
+            <div class="page-header" id="unique">
+                <h3>Unique in its class!</h3>
+                <br>
+                <img class="cicada" src="cicada%202.JPG">
+                <img class="cicada" src="cicada.JPG">
+                <h2 class="about"><kbd>ABOUT</kbd></h2>
+                <h4 class="info">
+                    These pictures of Cicada were taken in our vicinity when they were perching on a bottle brush tree...
+                    One genus, the periodical cicadas spend most of their lives as underground nymphs, emerging only after 13 or 17 years.At least 3000 cicada species are distributed worldwide with the majority being in the tropics. Crickets make sound by rubbing their wings together, and cicadas have a special organ called a tymbal that produces sound. The tymbal contains a series of ribs that buckle one after the other when the cicada flexes its muscles.
+                </h4>
+                <hr>
+                <br>
+                <video id="cicada_sound" width="800px" height="450px" src="The%20Indian%20Cicada%20sound.mp4" controls></video>
+                <img id="origami" src="origami%20cicada.jpeg">
+                <h4 id=cicadaInfo>
+                    I love origami and I have also created a origami cicada!
+                </h4>
+            </div>
+        </div>
+    </section>
+    <div id="myLife">
+        <div class="page-header">
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame">
+                “Living in harmony with Nature – not against it”
+                <i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="avengers_endgame" class="collapse">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h3>
+                        <kbd>Using cloth bags instead of polythene:</kbd>
+                        <p></p>
+                        We always carry cloth bags to bring grocery & vegetables from the market. To encourage their use, we have freely distributed hundreds of such bags on various occasions including my birthday.
+                        <br>
+                        <br>
+                        <kbd>Growing more trees:</kbd>
+                        <p></p>
+                        In the small space on the front and back of our house we’ve grown many trees and plants like – Mango, Custard Apple, Neem, Parrot tree, Camel’s foot tree, Banana, Aloe Vera, Roses, Jasmine and many more.
+                        We also have many earthen pots in which we’ve grown beautiful all-season plants like – Adenium, dieffenbachia, Coleus, Kalanchoe, Ferns, Calathea, Caladium and many more.
+                        <br>
+                        <img class="pics" src="adenium.JPG">
+                        <h3>Adenium</h3>
+                        <img id="plant1" class="pics" src="Dieffenbachia.jpeg">
+                        <h3 id="plant1_txt">Dieffenbachia</h3>
+                        <img class="pics" src="Coleus.jpg">
+                        <h3>Coleus</h3>
+                        <img id="plant2" class="pics" src="Boston%20fern.jpg">
+                        <h3 id="plant2_txt">Boston Fern</h3>
+                        <img class="pics" src="Calathea%20zebrina%20(zebra%20plant).JPG">
+                        <h3>Calathea zebrina (zebra plant)</h3>
+                        <img id="plant3" class="pics" src="Autmn%20fern.jpg">
+                        <h3 id="plant3_txt">Autmn Fern</h3>
+                        <img class="pics" src="Kalanchoe.jpg">
+                        <h3>Kalanchoe</h3>
+                        <img id="plant4" class="pics" src="Caladium.jpg">
+                        <h3 id="plant4_txt">Caladium</h3>
+                        <br>
+                        <br>
+                        <h3>
+                            <kbd>Developing a nursery:</kbd>
+                            <p></p>
+                            We utilize discarded packaging bags to grow stems. When they develop roots, we gift them to friends. Thus, we avoid the purchase of plastic gift items and non-biodegradable packaging.
+                            <br>
+                            <img id="clothBags" src="cloth%20bags.jpg">
+                            <br>
+                            <br>
+                            Eco-friendly & handmade gifts:
+                            My mother stitched zipper pouches made of cotton cloth and I gave them to my teachers and classmates as a token of gratitude toward them.
+                            <br>
+                            <br>
+                            <kbd>Composting:</kbd>
+                            <p></p>
+                            The discarded peels, stems and leaves from fruits & vegetables are put into a compost bin where earthworms decompose the organic matter. And we use the compost as a manure for plants.
+                            <br>
+                            <br>
+                            <kbd>Harmony with creatures:</kbd>
+                            <p></p>
+                            For more than a decade, our letter-box has been the nesting place for sparrows. As there are plenty of plants around, Mynah, Purple-sunbird, Magpie-Robin, Tailor bird, sparrows and many others throng throughout the year, feeding on nectar, insects and berries. As a compliment, we enjoy their song and dance.
+                        </h3>
+                        <p></p>
+                        <img class="pics" src="sunbird.JPG">
+                        <h3>Purple Sunbird (male)</h3>
+                        <img id="bird1" class="pics" src="Purple%20sunbird%20(1).JPG">
+                        <h3 id="bird1_txt">Purple Sunbird (female)</h3>
+                        <hr>
+                        <img class="pics" src="Magpie%20Robin.JPG">
+                        <h3>Magpie Robin</h3>
+                        <img id="bird2" class="pics" src="Myna.JPG">
+                        <h3 id="bird2_txt">Myna</h3>
+                        <hr>
+                        <img class="pics" src="tailor%20bird.jpg">
+                        <h3>Talior Bird</h3>
+                        <img id="bird3" class="pics" src="Sparrow%20(1).JPG">
+                        <h3 id="bird3_txt">Sparrow</h3>
+                        <br>
+                        <br>
+                        <h3>
+                            Our locality had been the habitat of snakes like – Cobra, Viper, Slender Racer etc. Tens of such snakes have been sighted, harmlessly caught and rescued to the nearby jungle.
+                            Depending on one’s capacity and situation – each one of us can find and adopt at least some practical methods that ensure Sustainable Development – A progress that encompasses Society, Environment and Economy.
+                            “Let us Endure today to Assure tomorrow.”
+                        </h3>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="location">
+        <br>
+        <h2>Location</h2>
+        <div class="line"></div>
+        <br>
+        <h4 class="text-capitalize">T-3 45/g anupratap colony rawatbhata, rajasthan.</h4>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.9407657046404!2d75.6126927292055!3d24.941916099000995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396587bfc8726983%3A0x79886877e32c87d3!2sHome!5e1!3m2!1sen!2sin!4v1617955420866!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section id="contact">
+        <br>
+        <h2>Contact</h2>
+        <div class="line"></div>
+        <br>
+        <br>
+        <img id="travel" class="img-circle" src="My%20photo.jpg">
+        <span id="email">email:</span>
+        <a href="mailto:rajanastro12@gmail.com?subject=Letter to Rajan Joshi&body=Hello! My name is _______">&nbsp;&nbsp;rajanastro12@gmail.com</a>
+        <div id="div">
+            <h4>Contact</h4>
+            <h4 id="no.">91+ 9530337755</h4>
+        </div>
+    </section>
+
+</body>
+
+</html>
